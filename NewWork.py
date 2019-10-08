@@ -68,4 +68,4 @@ print(formatter % (formatter, formatter, formatter, formatter))
 
 # Why did Mr.Black use %r instead of %s?
 
-Print("When I switched %r with %s, there are no quotation marks around the words. Thats the only difference that I could find.")
+print("When I switched %r with %s, there are no quotation marks around the words. Thats the only difference that I could find.")
