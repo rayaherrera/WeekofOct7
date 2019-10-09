@@ -68,4 +68,64 @@ print(formatter % (formatter, formatter, formatter, formatter))
 
 # Why did Mr.Black use %r instead of %s?
 
-print("When I switched %r with %s, there are no quotation marks around the words. Thats the only difference that I could find.")
+print("When I switched %r with %s, there are no quotation marks around the words. That's the only difference that I could find.")
+
+
+# Time for strange stuff in the world of printing...
+
+days = "Mon Tue Wed Thu Fri Sat Sun"
+months = "Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug"
+
+print("Here are the days: ", days)
+print("Here are the months: ", months)
+
+print("""
+There's something going on here.
+With the three double-quotes.
+We'll be able to type as much as we like.
+Even 4 lines if we want, or 5, or 6.
+""")
+
+# What if I didnt like Jan being listed on the line with the rest of the
+# text and away from the other months? How could I fix that?
+
+# More escaping
+
+tabbyCat = "\tI'm tabbed in."
+persianCat = "I'm split\non a line."
+backlashCat = "I'm \\ a \\ cat."
+taskCat = """
+Ill make a list:
+\t* Cat food
+\t* Fishies
+\t* Catnip\n\t* Grass
+"""
+
+print(tabbyCat)
+print(persianCat)
+print(backlashCat)
+print(taskCat)
+
+# Escape Seq            What does it do
+# \\
+# \'
+# \"
+# \a
+# \b
+# \f
+# \n
+# \N{name}
+# \r
+# \t
+# \uxxxx
+# \Uxxxxxxxx
+# \v
+# \ooo
+# \xhh
+
+# What does the following code do:
+# while True:
+#       for i in ["/", "-", "|", "\\","|"]:
+#           print("%s\r" % i, end='')
+
+# Can you replace """ with '''?
