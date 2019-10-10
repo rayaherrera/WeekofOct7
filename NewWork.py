@@ -134,6 +134,18 @@ print(taskCat)
 # Asking Questions
 
 age = input("How old are you? ")
-height = input ("How tall are you? ")
+height = input("How tall are you? ")
 
 print("So, you really %r old and %r tall?  Wow..." %(age, height))
+
+
+color = input("So whats your favorite color? ")
+color2 = input("What about your second favorite color? ")
+
+print("So %r and %r are your favorite colors?  That's cool!" %(color, color2))
+
+hobby = input("So what is your favorite hobby? ")
+hobby2 = input("Why do you like that hobby? ")
+
+print("The fact that you think %r is a great reason to like %r is great. That's awesome!" %(hobby2, hobby))
+
