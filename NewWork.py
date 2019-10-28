@@ -107,21 +107,21 @@ print(backlashCat)
 print(taskCat)
 
 # Escape Seq            What does it do
-# \\
-# \'
+# \\                backslash
+# \'                single quote
 # \"
 # \a
-# \b
-# \f
-# \n
+# \b                backspace
+# \f                form feed
+# \n                new line
 # \N{name}
-# \r
-# \t
+# \r                carriage return
+# \t                tab
 # \uxxxx
 # \Uxxxxxxxx
 # \v
-# \ooo
-# \xhh
+# \ooo              octal value
+# \xhh              hex value
 
 # What does the following code do:
 # while True:
