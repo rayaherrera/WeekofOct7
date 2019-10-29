@@ -110,7 +110,7 @@ print(taskCat)
 # \\                backslash
 # \'                single quote
 # \"
-# \a
+# \a                bell or alert
 # \b                backspace
 # \f                form feed
 # \n                new line
@@ -119,7 +119,7 @@ print(taskCat)
 # \t                tab
 # \uxxxx
 # \Uxxxxxxxx
-# \v
+# \v                vertical tab
 # \ooo              octal value
 # \xhh              hex value
 
@@ -128,7 +128,7 @@ print(taskCat)
 #       for i in ["/", "-", "|", "\\","|"]:
 #           print("%s\r" % i, end='')
 
-# Can you replace """ with '''?
+# Can you replace """ with '''?             no, they are not the same
 
 
 # Asking Questions
@@ -138,6 +138,7 @@ height = input("How tall are you? ")
 
 print("So, you really %r old and %r tall?  Wow..." %(age, height))
 
+# Practice asking questions and processing responses
 
 color = input("So whats your favorite color? ")
 color2 = input("What about your second favorite color? ")
